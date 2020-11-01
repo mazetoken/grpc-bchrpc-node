@@ -255,7 +255,7 @@ export class GrpcClient {
         txnHex,
         txn,
         requiredSlpBurns,
-        skipSlpValidityChecks = false,
+        skipSlpValidityChecks = true,
     }: {
         txnBuf?: Buffer,
         txnHex?: string,
