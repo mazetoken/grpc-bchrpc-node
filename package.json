@@ -4,8 +4,7 @@
   "description": "BCHD gRPC interface for node.js clients.",
   "main": "dist/index.js",
   "files": [
-    "dist/*.d.ts",
-    "dist/*.js",
+    "dist/",
     "pb/"
   ],
   "scripts": {
